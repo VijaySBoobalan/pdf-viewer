@@ -1,62 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p><strong>PDF Viewer</strong></p>
+<ul>
+<li>This Projects Depend on the View the PDF file by uploaded Users.</li>
+<li>This Project have the Login, Register and logout interface.</li>
+<li>Your can directly Register and your can upload the PDF, then your can view it.</li>
+<li>On the left side, all uploaded files displayed by uploaded by yourself only.</li>
+<li>Then if your click the file, Then your can view the pdf on right side.</li>
+<li>In, top of the page, your can update the pdf file, if your need to change the file.</li>
+</ul>
+<p><strong>Project Running commands</strong></p>
+<ol>
+<li>Clone this project into your System.</li>
+<li>Then, kindly install the vendor folder. <code>composer install</code>.</li>
+<li>Then, copy the <code>.env.example</code> file. then name it as <code>.env</code>.</li>
+<li>After the, &nbsp;need to key generate, using the command of<code> php artisan key:generate</code>.</li>
+<li>Please provide the Your <strong>database name, and username and password</strong> of the your server.</li>
+<li>likely this, <code>DB_DATABASE=DB_NAME</code>,<code>DB_USERNAME=UserName</code>,<code>DB_PASSWORD=Password</code>.</li>
+<li>The execute the migration command <code>php artisan migrate:fresh</code>.</li>
+<li>Finally , Your can run the Project. The command for execution is<code> php artisan serve</code>.</li>
+<li>Then, this project running on the <a href="http://localhost:8000/login">http://localhost:8000/login</a>.</li>
+</ol>
+<p><strong>Project Flow</strong></p>
+<ol>
+<li>if Your have an account, Then your will proceed with the <strong>login</strong>, if else, tour can see the <strong>Sign Up</strong> option. Click on it, then please provide the details. then your can access it.</li>
+<li>On the left side, your can see the <strong>file uploading option</strong>. please choose the file, then upload it. after the upload, your can see the uploaded file on the left side.</li>
+<li>if your click the uploaded file, it view on the right side of the page.</li>
+<li>In, top of the page, your can update the pdf file, if your need to change the file.</li>
+<li>Logout option is provided in the top of the right side page.</li>
+<li>In top of the right side, your see your user name, click on it, the toggle will open, here your can see the <strong>logout </strong>Button.</li>
+<li>If your click the Logout Button, the session goes to expire.</li>
+</ol>
